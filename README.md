@@ -16,12 +16,12 @@ class Skills extends ITStudent {
 }
 
 class Links extends ITStudent {
-  # Ethical Hacking
+  // Ethical Hacking
   Rootme     = 'https://www.root-me.org/shinobi-406113';
   HackTheBox = 'https://www.hackthebox.com/home/users/profile/234515'
   TryHackMe  = 'https://tryhackme.com/dashboard';
   
-  # About me
+  // About me
   LinkedIn   = 'https://www.linkedin.com/in/yanis-taleb-7797971a0/'
 }
 ```
