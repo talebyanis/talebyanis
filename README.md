@@ -1,16 +1,27 @@
-### Hi there 👋
+```js
+import ITStudent from 'Yanis';
 
-<!--
-**shin0bi-y/shin0bi-y** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Bio extends ITStudent {
+  name      = 'Yanis';
+  title     = 'IT Student at UTT';
+  studying  = 'Cybersecurity, Network & telecommunications, Programming';
+  location  = 'Nancy, FR';
+  interests = 'Ethical Hacking, Music production, Data Privacy, Sport'
+}
 
-Here are some ideas to get you started:
+class Skills extends ITStudent {
+  languages  = ['Python', 'Bash', 'Java', 'C/C++', 'Scala', 'TypeScript', 'PHP'];
+  databases  = ['MySQL', 'Oracle'];
+  misc       = ['Network', 'Unix', 'Software design / SCRUM'];
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Links extends ITStudent {
+  # Ethical Hacking
+  Rootme     = 'https://www.root-me.org/shinobi-406113';
+  HackTheBox = 'https://www.hackthebox.com/home/users/profile/234515'
+  TryHackMe  = 'https://tryhackme.com/dashboard';
+  
+  # About me
+  LinkedIn   = 'https://www.linkedin.com/in/yanis-taleb-7797971a0/'
+}
+```
