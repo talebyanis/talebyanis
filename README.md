@@ -5,7 +5,7 @@ class Bio extends ITStudent {
   name      = 'Yanis';
   title     = 'IT Student at UTT';
   studying  = 'Cybersecurity, Network & telecommunications, Programming';
-  location  = 'Nancy, FR';
+  location  = 'France';
   interests = 'Ethical Hacking, Music production, Data Privacy, Sport'
 }
 
